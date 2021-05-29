@@ -1,0 +1,12 @@
+.filter {
+  background-image: linear-gradient(#f7f2f3,#f7c4d4);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & select {
+    height: 30px;
+    width: 120px;
+    background: rgba(0, 0, 0, 0);  
+  }
+}

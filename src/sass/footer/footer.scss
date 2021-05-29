@@ -1,0 +1,37 @@
+.footer{
+    border-top: 1px solid rgb(223, 212, 212);
+    height: 500px;
+    padding-top: 50px;
+    &-icons {
+        display: flex;
+        justify-content: center;
+        & a{
+            margin: 15px;
+           color: green;
+           &:hover {
+            color:rgb(25, 175, 25);
+        }
+        }
+    }
+    &-info{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+.obsh{
+
+&-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: ghostwhite !important;
+    & p{background-color: ghostwhite !important;
+    }
+}
+& button{
+   color: ghostwhite !important;
+}
+}
